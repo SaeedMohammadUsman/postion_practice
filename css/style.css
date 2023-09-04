@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 300px;
+    height: auto;
+}
+body{
+    background-color: rgb(226, 224, 224);
+
+}
+.container{
+    margin: 5px;
+
+}
+section .head{
+    
+    margin: 20px;
+    text-align: center;
+    
+   
+}
+.head h1{
+    padding: 20px;
+}
+.head p {
+    padding-bottom: 5px;
+}
+.btn-head{
+    padding: 15px 30px;
+    background-color: red;
+    color: white;
+}
+.btn-head:hover{
+    cursor: pointer;
+}
+
+.content{
+    position: relative;
+}
+.card{
+    margin: 5px;
+    width: 65%;
+    background-color: rgb(240, 240, 240); 
+    position: relative;
+    padding: 5px;
+
+}
+.card h2{
+    padding: 5px;
+}
+.card h4{
+    background-color: rgb(240, 161, 50);
+    display: inline;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    margin: 5px;
+    
+}
+.art {
+    width: 45%;
+   position: absolute;
+   top: 0;
+   right: -190px;
+}
+#fix{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
